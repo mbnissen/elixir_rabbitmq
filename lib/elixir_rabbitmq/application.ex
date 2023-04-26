@@ -16,8 +16,8 @@ defmodule ElixirRabbitmq.Application do
       {Finch, name: ElixirRabbitmq.Finch},
       # Start the Endpoint (http/https)
       ElixirRabbitmqWeb.Endpoint,
-      ElixirRabbitmq.Consumer
-
+      # ElixirRabbitmq.Consumer,
+      ElixitRabbitmq.BroadwayConsumer
       # Start a worker by calling: ElixirRabbitmq.Worker.start_link(arg)
       # {ElixirRabbitmq.Worker, arg}
     ]
