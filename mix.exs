@@ -32,6 +32,7 @@ defmodule ElixirRabbitmq.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:amqp, "~> 3.2"},
       {:phoenix, "~> 1.7.2"},
       {:phoenix_html, "~> 3.3"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
